@@ -3,7 +3,7 @@ require 'browser-timezone'
 module BrowserTimezone
   require 'rails'
   
-  class Railtie < Rails::RailTie
+  class Railtie < Rails::Railtie
     initializer "browser-timezone.insert_into_action_controller" do
       ActiveSupport.on_load :action_controller do
         BrowserTimezone::Railtie.insert
