@@ -22,4 +22,4 @@ In your controller:
   
 That's it.
 
-Thanks to (http://techno-weenie.net/2008/2/6/timezone-awareness-in-rails/)[technoweenie's article] for the inspiration.
+Thanks to [technoweenie's article](http://techno-weenie.net/2008/2/6/timezone-awareness-in-rails/) for the inspiration.
