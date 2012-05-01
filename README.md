@@ -2,6 +2,12 @@
 
 A gem that automatically detects the user's timezone from their browser and then applies it in the controller.
 
+## Installation ##
+
+Add the gem to your Gemfile:
+
+  gem 'browser-timezone', :git => "git://github.com/zmillman/browser-timezone.git"
+
 ## Usage ##
 
 In your controller:
