@@ -8,8 +8,8 @@ Gem::Specification.new do |s|
   s.authors     = ["Zach Millman"]
   s.email       = ["zach.millman@gmail.com"]
   s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.summary     = %q{Timezone detection for Rails}
+  s.description = %q{Browser Timezone is a gem for easy detection of a user's timezone in their browser}
 
   s.rubyforge_project = "browser-timezone"
 
