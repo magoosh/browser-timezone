@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.version     = BrowserTimezone::VERSION
   s.authors     = ["Zach Millman"]
   s.email       = ["zach.millman@gmail.com"]
-  s.homepage    = ""
+  s.homepage    = "https://github.com/zmillman/browser-timezone"
   s.summary     = %q{Timezone detection for Rails}
   s.description = %q{Browser Timezone is a gem for easy detection of a user's timezone in their browser}
 
