@@ -6,7 +6,9 @@ A gem that automatically detects the user's timezone from their browser and then
 
 Add the gem to your Gemfile:
 
+  ```ruby
   gem 'browser-timezone', :git => "git://github.com/zmillman/browser-timezone.git"
+  ```
 
 ## Usage ##
 
@@ -20,4 +22,4 @@ In your controller:
   
 That's it.
 
-Thanks to [http://techno-weenie.net/2008/2/6/timezone-awareness-in-rails/](technoweenie's article) for the inspiration.
+Thanks to (http://techno-weenie.net/2008/2/6/timezone-awareness-in-rails/)[technoweenie's article] for the inspiration.
