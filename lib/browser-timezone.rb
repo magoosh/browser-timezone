@@ -1,7 +1,6 @@
 require "browser-timezone/version"
 
 require "browser-timezone/engine" # For javascript assets
-require "browser-timezone/glue"
 require "browser-timezone/instance_methods"
 
 # The base module that gets included in ActionController::Base
