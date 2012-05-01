@@ -2,7 +2,7 @@ module BrowserTimezone
   module InstanceMethods
     protected
     
-    def set_timezone_from_browser
+    def set_timezone_from_browser_cookie
       Time.zone = browser_timezone || 'UTC'
     end
     

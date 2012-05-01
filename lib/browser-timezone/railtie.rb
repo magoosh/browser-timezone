@@ -14,8 +14,8 @@ module BrowserTimezone
   class Railtie
     def self.insert
       if defined?(ActionController)
+        ActionController::Base.extend BrowserTimezone::ClassMethods
         ActionController::Base.send(:include, BrowserTimezone::InstanceMethods)
-        ActionController::Base.send(:extend, BrowserTimezone::ClassMethods)
       else
         raise 'ActionController was not defined'
       end

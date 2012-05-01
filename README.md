@@ -16,7 +16,7 @@ In your controller:
 
   ```ruby
   class ApplicationController < ActionController::Base
-    sets_timezone_from_browser
+    set_timezone_from_browser
   end
   ````
   
