@@ -15,6 +15,8 @@ module BrowserTimezone
     def self.insert
       if defined?(ActionController)
         ActionController::Base.send(:include, BrowserTimezone::Glue)
+      else
+        raise 'ActionController was not defined'
       end
     end
   end
