@@ -4,7 +4,7 @@ require "browser-timezone/version"
 
 Gem::Specification.new do |s|
   s.name        = "browser-timezone"
-  s.version     = Browser::Timezone::VERSION
+  s.version     = BrowserTimezone::VERSION
   s.authors     = ["Zach Millman"]
   s.email       = ["zach.millman@gmail.com"]
   s.homepage    = ""
