@@ -7,7 +7,7 @@ A gem that automatically detects the user's timezone from their browser and then
 Add the gem to your Gemfile:
 
   ```ruby
-  gem 'browser-timezone', :git => "git://github.com/zmillman/browser-timezone.git"
+  gem 'browser-timezone', :git => "git://github.com/magoosh/browser-timezone.git"
   ```
 
 ## Usage ##
