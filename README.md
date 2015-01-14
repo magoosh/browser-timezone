@@ -1,6 +1,6 @@
 # Browser Timezone #
 
-A gem that automatically detects the user's timezone from their browser and then applies it in the controller.
+This gem automatically detects the user's timezone offset from their browser by setting a cookie, then applies it in the controller by setting `Time.zone` to the appropriate timezone.
 
 ## Installation ##
 
