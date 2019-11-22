@@ -1,10 +1,10 @@
 module BrowserTimezone
   module ClassMethods
     protected
-    # Adds a before_filter which sets the timezone
+    # Adds a before_action which sets the timezone
     #
     # options - Set which actions have the timezone detected
-    #         :only/:except - Passed to the before_filter
+    #         :only/:except - Passed to the before_action
     #
     # Example
     #
@@ -13,7 +13,7 @@ module BrowserTimezone
     # end
     #
     def set_timezone_from_browser(options = {})
-      prepend_before_filter :set_timezone_from_browser_cookie, options
+      prepend_before_action :set_timezone_from_browser_cookie, options
     end
   end
 end
