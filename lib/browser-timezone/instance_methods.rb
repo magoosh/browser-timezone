@@ -13,7 +13,10 @@ module BrowserTimezone
     # Returns: Returns a string or nil
     def browser_timezone
       return nil if cookies[:tzoffset].blank?
-      ActiveSupport::TimeZone[-cookies[:tzoffset].to_i.minutes]
+      return nil if cookies[:tzname].blank?
+
+      # Prefer the exact time zone, but fallback to the correct UTC offset if needed
+      ActiveSupport::TimeZone.new(cookies[:tzname]) || ActiveSupport::TimeZone[-cookies[:tzoffset].to_i.minutes]
     end
   end
 end
